@@ -8,6 +8,10 @@ A lightweight, zero-dependency TypeScript utility for normalizing and comparing 
 npm install semantic-version-utils
 ```
 
+## Repository
+
+[GitHub Repository](https://github.com/fabio-jreis/semantic-version-utils)
+
 ## Features
 
 - **Normalization**: Handles prefixes like `v`, `version`, or whitespace automatically.

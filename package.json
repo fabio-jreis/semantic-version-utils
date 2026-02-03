@@ -22,6 +22,10 @@
         "normalize"
     ],
     "author": "Fábio José Reis (https://www.linkedin.com/in/fabiojosereis/)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fabio-jreis/semantic-version-utils.git"
+    },
     "license": "MIT",
     "devDependencies": {
         "tsup": "^8.0.0",
