@@ -1,0 +1,38 @@
+{
+    "name": "semantic-version-utils",
+    "version": "1.0.0",
+    "description": "Utilities to normalize and compare firmware version codes.",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+        "test": "vitest run",
+        "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+        "lint": "eslint src/**/*.ts"
+    },
+    "keywords": [
+        "semantic",
+        "version",
+        "firmware",
+        "compare",
+        "normalize"
+    ],
+    "author": "Fábio José Reis (https://www.linkedin.com/in/fabiojosereis/)",
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.0.0",
+        "typescript": "^5.0.0",
+        "vitest": "^1.0.0"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    }
+}
